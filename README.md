@@ -1,3 +1,13 @@
+
+* Build To Do list for business startup
+
+** Used the useReducer hook to manage state with reducer functions.
+  Use useState in places where reducers are not appropriate or necessary.
+  Implemented controlled forms and inputs.
+ 
+
+*** Some issues were encountered with the edit and delete task functionality at the top portion of the app. However, the bottom portions are functioning allowing for task items to be  saved when edit is clicked and canceled to reverse the action. Completed checked box items receive a strikethrough to indicate completion. Tasks may be added via the top portion input. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

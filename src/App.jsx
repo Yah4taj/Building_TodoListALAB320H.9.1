@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
 import Todo from './components/Todo'
 import initialState from './data/data'
 import { useReducer } from 'react'
@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div style={{maxWidth: '600px', margin: '0 auto', padding: '15px'}}>
-      <h1>Create Todo List</h1>
+      <h1>Create to-do List</h1>
       
       <form onSubmit={handleSubmit} style={{display: 'flex', margin: '15px 0'}}>
         <input 
@@ -61,7 +61,7 @@ function App() {
         <button type="submit">Add</button>
       </form>
       
-      {/*  */}
+      
       <div style={{margin: '15px 0'}}>
         <div style={{display: 'flex', alignItems: 'center', margin: '5px 0'}}>
           <input type="checkbox" id="mockup" defaultChecked style={{marginRight: '8px'}} />

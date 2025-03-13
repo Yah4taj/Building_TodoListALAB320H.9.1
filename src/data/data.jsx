@@ -27,7 +27,7 @@ const initialState = [
     {
       "userId": 1,
       "id": 5,
-      "title": "",
+      "title": "Develop Marketing Strategy",
       "completed": false
     },
     {
